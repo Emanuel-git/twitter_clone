@@ -11,7 +11,11 @@ import {
     BellIcon,
     EmailIcon,
     FavoriteIcon,
-    ProfileIcon
+    ProfileIcon,
+    ExitIcon,
+    Botside,
+    Avatar,
+    ProfileData
 } from './styles';
 
 const MenuBar: React.FC = () => {
@@ -50,6 +54,17 @@ const MenuBar: React.FC = () => {
               </Button>
 
           </Topside>
+
+          <Botside>
+              <Avatar />
+
+              <ProfileData>
+                  <strong>José Emanuel</strong>
+                  <strong>@emanuel</strong>
+              </ProfileData>
+
+              <ExitIcon />
+          </Botside>
       </Container>
   );
 }
